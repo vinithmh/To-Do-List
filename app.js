@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb://0.0.0.0:27017/todolistDB", {
+mongoose.connect("mongodb+srv://admin-vinith:Vs%409945377147@cluster0.xboszq3.mongodb.net/todolistDB", {
   useNewUrlParser: true
 });
 
